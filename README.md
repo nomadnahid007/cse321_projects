@@ -1,7 +1,7 @@
 # cse321_projects
 This repository contains two projects I did as a part of my Operating Systems course, CSE321, in undergraduate studies. My teammates MD Shahadat Hossain Shamim, Aowfi Adon Foraejy, and I had to complete the following two projects in the entire semester: 
 
-#Project 1: 
+**Project 1**: 
 In this project, we had to implement a UNIX shell using C. Our shell is able to perform basic linux commands, I/O redirections and handle errors.  We had to cover the following specifications:
 1. Display a command prompt (e.g., sh> ) and read user input. 
 2. Parse and execute system commands. 
@@ -16,7 +16,8 @@ For example, “command1 | command2 | command3 | command4” should work
 8. Support signal handling. Pressing CTRL+C should terminate the currently running 
 command inside your shell, not your shell.
 
-#Project 2:
+
+**Project 2**:
 In this project, we had design and implement a file system consistency checker, vsfsck, for a 
 custom virtual file system (VSFS). Our tool had to be responsible for verifying the integrity and 
 consistency of essential file system structures, including: 
@@ -34,7 +35,7 @@ Our objectives were to:
 3. Fix the detected errors to restore the file system’s integrity. 
 4. Ensure that the corrected file system image is error-free when re-checked with your tool 
 
-Features 
+**Features **
 1. Superblock Validator 
 Verifies: 
 a. Magic number (must be 0xd34d) 
